@@ -1,4 +1,14 @@
 <div class="whole-page">
+  <button (click)="onLoad()">Trigger Prefetch</button>
+
+  <button (click)="onDisplay()">Trigger Display</button>
+
+  <!-- @defer (on interaction; prefetch on viewport) -->
+  <!-- @defer (on timer(5s); prefetch on idle) { -->
+  <!-- @defer (when show; prefetch when load) { -->
+  <!-- @defer (on hover) { -->
+  <!-- @defer (on interaction) { -->
+  <!-- @defer (on viewport) { -->
 
   @defer () {
     <app-yellow/>

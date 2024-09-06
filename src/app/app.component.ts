@@ -16,4 +16,16 @@ import { BlackComponent } from "./black/black.component";
 })
 export class AppComponent {
   title = 'colors';
+
+  load: boolean = false;
+  show: boolean = false;
+
+  onLoad() {
+    this.load = true;
+  }
+
+  onDisplay() {
+    this.show = true;
+  }
+
 }
