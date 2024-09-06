@@ -1,1 +1,41 @@
-/* You can add global styles to this file, and also import other style files */
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.black{
+  background-color: black;
+}
+.card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2%;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
